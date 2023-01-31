@@ -8,6 +8,7 @@ jobs:
       runs-on: ubuntu-latest
       name: "Build Xray images"
       env:
+        name: flourishes/argo-xry
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         DOCKERHUB_REPOSITORY: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_REPO }}:latest
