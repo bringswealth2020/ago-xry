@@ -22,6 +22,7 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1.14.1
         with:
+          name: flourishes/argo-xry
           username: ${{ env.DOCKER_USERNAME }}
           password: ${{ env.DOCKER_PASSWORD }}
 
