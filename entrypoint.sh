@@ -2,7 +2,7 @@
 
 # 默认各参数值，请自行修改.(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
 PORT=${PORT:-'8080'}
-UUID=${UUID:-'3665b7b6-c2eb-4dda-a2b6-dec5055eb88e'}
+UUID=${UUID:-'891dcd8b-3cfc-41e0-9f27-202de5015663'}
 WSPATH=${WSPATH:-'argo'}
 
 # 生成 Xray 配置文件
